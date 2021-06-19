@@ -1,0 +1,20 @@
+{
+    "name": "ranis/tugas_uts",
+    "description": "tugas uts",
+    "type": "project",
+    "require": {
+        "php": "^7.0"
+   
+    },
+    "authors": [
+        {
+            "name": "ranis",
+            "email": "ranishasibuan11@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "App\\" : "app/"
+    }
+}
+}
