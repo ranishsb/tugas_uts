@@ -2,7 +2,7 @@
 create table tb_user (
 	user_id int(11) not null AUTO_INCREMENT,
 	user_name varchar(50) not null,
-	user_password varchar(256) not null
+	user_password varchar(256) not null,
 	PRIMARY KEY(user_id),
 	UNIQUE KEY(user_name)
 	);
